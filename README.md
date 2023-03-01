@@ -3,7 +3,10 @@
 ![image](https://user-images.githubusercontent.com/123346661/222113846-b158d751-6bed-41ab-b79f-03fad511d718.png) ![image](https://raw.githubusercontent.com/do-ki/custom-plugins/main/img/dashboard_d.png)
 
 
-###### DASHBOARD Plugin Requirements
+###### DASHBOARD Plugin  
+- Display the following: RAM, CPU, Temperature, Battery (pivoyager), Deauth Counter, Total Handshakes, Total Crack Handshakes, Clock and Internet status(in progress).
+
+Requirements:
 
 Pivoyager  
 "I2C" needs to be enabled (e.g. via raspi-config).  
