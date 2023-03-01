@@ -23,3 +23,5 @@ Pivoyager binary is also needed.
 curl -O https://www.omzlo.com/downloads/pivoyager.tar.gz  
 tar xvf pivoyager.tar.gz  
 sudo mv pivoyager /usr/local/bin/  
+
+Note: use dashboard2.py if you dont use Pivoyager UPS
