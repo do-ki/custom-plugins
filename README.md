@@ -25,3 +25,19 @@ tar xvf pivoyager.tar.gz
 sudo mv pivoyager /usr/local/bin/  
 
 Note: use dashboard2.py if you dont use Pivoyager UPS
+
+Pwnmenu plugin - this is a modified pwnmenu plugin by sn0wflake to work with displayhat mini 
+copy pwnmenucmd.py to /home/pi/scripts  
+copy pwnmenu.txt to /home/pi/scripts  
+
+enable GPIO Button plug-in with this setting:  
+
+main.plugins.gpio_buttons.enabled = true  
+main.plugins.gpio_buttons.gpios.5 = "python /home/pi/scripts/pwnmenucmd.py up"  
+main.plugins.gpio_buttons.gpios.6 = "python /home/pi/scripts/pwnmenucmd.py down"  
+main.plugins.gpio_buttons.gpios.16 = "python /home/pi/scripts/pwnmenucmd.py ok"  
+main.plugins.gpio_buttons.gpios.24 = "python /home/pi/scripts/pwnmenucmd.py close"  
+  
+Detailed instructions here:  
+
+https://gitlab.com/sn0wflake/pwnagotchi-pwnmenu-plugin  
