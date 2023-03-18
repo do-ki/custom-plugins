@@ -26,7 +26,7 @@ sudo mv pivoyager /usr/local/bin/
 
 Note: use dashboard2.py if you dont use Pivoyager UPS
 
-Pwnmenu plugin - this is a modified pwnmenu plugin by sn0wflake to work with displayhat mini 
+Pwnmenu plugin - this is a modified pwnmenu plugin by sn0wflake to work with displayhat mini   
 copy pwnmenucmd.py to /home/pi/scripts  
 copy pwnmenu.txt to /home/pi/scripts  
 
